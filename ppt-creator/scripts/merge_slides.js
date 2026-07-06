@@ -64,7 +64,7 @@ const output = `<!DOCTYPE html>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
   <!-- Google Fonts（8 风格常用字体合集） -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@400;700&family=DM+Serif+Display&family=Noto+Sans+SC&family=Noto+Serif+SC&family=JetBrains+Mono&family=Crimson+Text:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
-  <!-- ECharts 6.1.0: 需要复杂图表时取消注释，预先生成 PNG 后放入 assets/，HTML 中用 <img> 引用 -->
+  <!-- ECharts 6.1.0: 需要复杂图表时预先生成 PNG 后放入 assets/，HTML 中用 <img> 引用 -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js"></script> -->
   <style>
 ${combinedStyles}
